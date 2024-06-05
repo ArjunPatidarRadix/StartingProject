@@ -7,6 +7,6 @@ jobs:
       - name: get code
         uses: actions/checkout@v3
       - name: install dependencies
-        runs: npm ci
+        run: npm ci
       - name: run tests
-        runs: npm test
+        run: npm test
